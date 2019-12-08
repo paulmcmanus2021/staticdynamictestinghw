@@ -34,7 +34,7 @@ def self.cards_total(cards)
   total
   for card in cards
     total += card.value
-#total needs #{}
+#total needs #{} and needs to be outside the for loop
     return "You have a total of" + total
   end
 end
