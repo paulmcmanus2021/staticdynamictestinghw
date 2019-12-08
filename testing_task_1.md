@@ -33,7 +33,6 @@ end
 def self.cards_total(cards)
   total
   for card in cards
-#value is set to attr_reader, unable to be updated.
     total += card.value
 #total needs #{}
     return "You have a total of" + total
